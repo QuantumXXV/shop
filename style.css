@@ -1,0 +1,112 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1c1c1c;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+	margin: 0px;
+	font-size: 4vw;
+}
+
+h2 {
+	margin: 0px;
+	font-size: 3vw;
+}
+
+img {
+	object-fit: cover;
+	width: 70%;
+    height: 80%;
+	border-radius: 1vw;
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+.top {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 2vw;
+	background: #0088d6;
+	padding-top: px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top .left {
+    color: white;
+	margin: 0px;
+	text-align: left;
+}
+
+.top .right {
+    color: white;
+	margin: 0px;
+	text-align: right;
+}
+
+.header {
+    padding: 3vw;
+    background: #00aeff;
+    color: white;
+}
+
+.header h1 {
+    font-size: 12vw;
+}
+
+.gridcontainer {
+    row-gap: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridcontainer > a {
+    margin-left: 3vw;
+    margin-right: 3vw; 
+    margin-bottom: 1vw;
+    padding-bottom: 4vw;
+}
+
+.zoom {
+	background: #0088d6;
+	border-radius: 25px;
+    transition: transform .2s;
+}
+
+.zoom p {
+	border-radius: 2vw;
+	font-weight: bold;
+	font-size: 3.6vw;
+	margin: 0px;
+	padding: 1px;
+	background: #0088d6;
+    color: white;
+}
+
+.zoom h2 {	
+	border-radius: 2vw;
+	font-weight: bold;
+	font-size: 4vw;
+	margin: 0px;
+	padding: 2px;
+	background: #0088d6;
+    color: white;
+}
+  
+.zoom:hover {
+    transform: scale(1.1);
+}
